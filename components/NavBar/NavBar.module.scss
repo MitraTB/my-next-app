@@ -14,14 +14,21 @@
             }
         }
         &__link{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: #2f3542;
             margin-right: 30px;
             margin-top: 8px;
+            
             &:hover{
                 cursor: pointer;
-                color: #57606f;
+                color: #3742fa;
+                font-weight: 700;
+                font-size: 1.5rem;
+                transition: font-size 0.8s 0.02s;
             }
         }
     }
+}
+.active-link{
+    color: red;
 }
